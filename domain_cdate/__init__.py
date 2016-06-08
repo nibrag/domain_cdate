@@ -2,7 +2,7 @@ import asyncio
 from dateutil import parser
 from .data import SERVERS, CODE_PAGES, CREATION_DATE_REX
 
-__version__ = 0.1
+__version__ = '0.1.0'
 __all__ = ('creation_date', 'WhoisConnectionError', 'WhoisError')
 
 
